@@ -1,0 +1,58 @@
+<!--pages/hw1/hw1.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form page__bd">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">投资项目评估大作业</h2>
+			<view class="weui-form__desc">专业限选课/校选课的同学下载。</view>
+			<view class="weui-form__desc">请务必选对课程类型。</view>
+		</view>
+		<view class="weui-form__control-area">
+			<view class="weui-cells__group weui-cells__group_form">
+				<view class="weui-cells__title">个人信息</view>
+				<view class="weui-cells weui-cells_form">
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd">							
+                <label class="weui-label">姓名</label>
+            </view>
+						<view class="weui-cell__bd">
+							<input class="weui-input" placeholder=" " bindinput="bindNameInput" placeholder-class="weui-input__placeholder" />
+						</view>
+					</view>
+					<view class="weui-cell weui-cell_active">
+						<view class="weui-cell__hd">							
+              <label class="weui-label">交大学号</label>
+            </view>
+						<view class="weui-cell__bd">
+							<input class="weui-input" placeholder=" " bindinput="bindNumInput" type="number" placeholder-class="weui-input__placeholder" />
+						</view>
+					</view>
+				</view>
+        <view class="weui-cell weui-cell_active weui-cell_select-after">
+			    <view class="weui-cell__hd">
+				    <label class="weui-label" >课程类型</label>
+			    </view>
+			    <view class="weui-cell__bd">
+            <picker bindchange="bindCourseChange" value="{{courseIndex}}" range="{{courseType}}">
+              <view class="weui-select">{{courseType[courseIndex]}}</view>
+            </picker>
+			    </view>
+		    </view>
+			</view>
+		</view>
+
+		<view class="weui-form__opr-area" bindtap="tapItem">
+			<a class="weui-btn weui-btn_primary">下载</a>
+		</view>
+
+		<view class="weui-form__extra-area">
+			<view class="weui-footer">
+				<view class="weui-footer__links">
+					<a href="javascript:" class="weui-footer__link">谢海红课程平台</a>
+				</view>
+				<view class="weui-footer__text">Copyright © 2008-2020</view>
+			</view>
+		</view>
+	</view>
+
+
+</view>

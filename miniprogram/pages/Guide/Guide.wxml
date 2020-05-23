@@ -1,0 +1,79 @@
+<!--miniprogram/pages/Guide/Guide.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+    <view class="page__hd">
+        <view class="page__title">做题指南</view>
+        <view class="page__desc">回复公众号提到的关键字，可以获得网站地址</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">一些对大作业有帮助的网站</view>
+            <view class="weui-article__section">
+                <view class="weui-article__h2">格式类</view>
+               
+               <!-- 1.1 -->
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">1. 数字格式</view>
+                    <view class="weui-article__p">
+                        在计算年末等额还本付息的时候，有同学反应无法去掉前面的￥ 或者 $ 符号。
+                    </view>
+                    <view class="weui-article__p">
+                        公众号回复  “数字格式”  会给你一些帮助，包括如何保留小数点 与 财务数值格式如何设置。
+                    </view>
+                    <view class="weui-article__p">
+                        在这里，我推荐大家将所有的表格统一成“常规”格式。这样对于作业不会造成一些不必要的麻烦。
+                    </view>
+                </view>
+                <!-- 1.2 -->
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">2. 题目格式</view>
+                    <view class="weui-article__p">
+                        有同学反应，自己看题看的不是很全。一开始只有一行字只是Excel的一个显示bug。双击题目区域，整个题目会自然的展示出来。
+                    </view>
+                </view>
+
+                <view class="weui-article__h2">计算类</view>
+
+                 <!-- 2.1 -->
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">1. 计算格式</view>
+                    <view class="weui-article__p">
+                        有的同学可能对于Excel功能的强大还不是很了解。项目和交通项目大作业我个人都不推荐手算/单独的计算器算。一方面，数字很多，并非事先设计好的整数。另一方面，这里有很多引用和迭代的计算。普通的计算很有可能会出误差甚至算错。
+                    </view>
+
+                    <view class="weui-article__p">
+                        所以在做作业中，我推荐大家多用公式及其引用。这样会让你更快的写完作业并获得更高的分数。
+                    </view>
+
+                    <view class="weui-article__p">
+                        公众号回复  “基本函数”  会给你基本函数的运用的介绍的网站地址。
+                    </view>
+                    <view class="weui-article__p">
+                        对于财务类，公众号回复  “微软官网说明书” / “Office助手网站” 会给你 收录了大作业必要的财务函数的网站地址。
+                    </view>
+                </view>
+
+
+                <view class="weui-article__h2">其他</view>
+
+                 <!-- 3.1 -->
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+                        Bilibili上面有些很好的demo 工程教学，大家可以利用休闲(吃鸡，打王者)的时间稍微看看。
+                    </view>
+
+                    <view class="weui-article__p">
+                        公众号回复  “demo”  会给你我觉得不错的EXCEL 教学网址。
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="weui-form__extra-area">
+			<view class="weui-footer">
+				<view class="weui-footer__links">
+					<a href="javascript:" class="weui-footer__link">谢海红课程平台</a>
+				</view>
+				<view class="weui-footer__text">Copyright © 2008-2020</view>
+			</view>
+	</view>
+</view>

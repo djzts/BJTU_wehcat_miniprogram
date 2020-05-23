@@ -1,0 +1,45 @@
+<!--pages/grade/grade.wxml-->
+<view>
+  <!--只是展示用户头像昵称，可以使用<open-data /> 组件-->
+  
+  <view class="page__hd">
+        <view class="page__title">同学</view>
+        <view class="page__desc">Grading result</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-cells__title">投资项目评估大作业</view>
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_example ">
+          <view class="weui-cell__bd">得分</view>
+          <view class="weui-cell__ft">分数</view>
+        </view>
+        <view class="weui-cell weui-cell_example ">
+          <view class="weui-cell__bd">正确率</view>
+          <view class="weui-cell__ft">50%</view>
+        </view>
+    </view>
+  </view>
+
+  <view class="page__bd">
+    <view class="weui-cells__title">交通项目大作业</view>
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_example ">
+          <view class="weui-cell__bd">得分</view>
+          <view class="weui-cell__ft">分数</view>
+        </view>
+        <view class="weui-cell weui-cell_example ">
+          <view class="weui-cell__bd">正确率</view>
+          <view class="weui-cell__ft">50%</view>
+        </view>
+    </view>
+  </view>
+  <view class="weui-form__extra-area">
+			<view class="weui-footer">
+				<view class="weui-footer__links">
+					<a href="javascript:" class="weui-footer__link">谢海红课程平台</a>
+				</view>
+				<view class="weui-footer__text">Copyright © 2008-2020</view>
+			</view>
+	</view>
+</view>
+
