@@ -5,3 +5,5 @@
 .page-section{
   margin-bottom: 20rpx;
 }
+
+.page{background-color:var(--weui-BG-2)}

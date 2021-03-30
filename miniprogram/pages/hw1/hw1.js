@@ -6,23 +6,12 @@ Page({
     studentNumber: ' ',
     courseType: ['校选', '限选'],
     courseIndex: 0,
-    iosDialog: false,
 
-  },
-  close: function () {
-    this.setData({
-        iosDialog: false,
-    })
   },
   bindNameInput: function (e) {
     this.setData({
       studentName: e.detail.value
     })
-  },
-  openIOS: function() {
-    this.setData({
-        iosDialog: true
-    });
   },
   bindNumInput: function (e) {
     this.setData({
@@ -34,7 +23,7 @@ Page({
     wx.showToast({
       title: '加载中',
       icon: 'loading',
-      duration: 2000
+      duration: 3000
     })
     
     wx.cloud.downloadFile({
@@ -56,7 +45,8 @@ Page({
             console.log('target destination =' + newFilePath);
             wx.openDocument({
               filePath: newFilePath,
-              fileType: 'xlsx',
+              showMenu: true,
+              fileType: 'xlsx',          
               success:function(res){
                 wx.hideToast({
                   complete: (res) => {},
@@ -67,12 +57,32 @@ Page({
               fail:function(res){
                 console.log('open fail')
                 console.log(res)
+                wx.showModal({
+                  title: '提示',
+                  content: '文件由于某些原因无法打开，请稍后再试（Error: 101 ）',
+                  showCancel: false,
+                  success (res) {
+                    if (res.confirm) {
+                      console.log('用户点击确定')
+                    } 
+                  }
+                })
               },
-              fail:function(res){
-                console.log('fail')
-                console.log(res)
-              }
-            })          
+          fail:function(res){
+            console.log('fail')
+            console.log(res)
+            wx.showModal({
+              title: '提示',
+              content: '文件由于某些原因无法打开，请稍后再试（Error: 102 ）',
+              showCancel: false,
+              success (res) {
+                if (res.confirm) {
+                  console.log('用户点击确定')
+                  } 
+                }
+            })
+          }
+          })          
         }
 
         })
@@ -102,5 +112,5 @@ Page({
     this.setData({
         courseIndex: e.detail.value
     })
-},
+  },
 })

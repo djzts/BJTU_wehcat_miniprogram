@@ -2,35 +2,56 @@
 <view>
   <!--只是展示用户头像昵称，可以使用<open-data /> 组件-->
   
-  <view class="page__hd">
-        <view class="page__title">同学</view>
-        <view class="page__desc">Grading result</view>
+  <view wx:if="{{register_status}}" class="page__hd">
+      <view class="page__title">{{class}} {{student_Name}} 同学</view>
+      <view class="page__desc">Grading result</view>
   </view>
+  <view wx:if="{{!register_status}}" class=" weui-cells_form">
+		<view class="weui-cell weui-cell_active">
+			<view class="weui-cell__hd">							
+        <label class="weui-label">学号</label>
+      </view>
+			<view class="weui-cell__bd">
+				<input class="weui-input" placeholder="填写本人学号" bindinput="bindNumInput" placeholder-class="weui-input__placeholder" />
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{!register_status}}" class="page__bd" bindtap="lock">
+    <view class="button-sp-area">
+			<a class="weui-btn weui-btn_mini weui-btn_primary">绑定学号</a>
+    </view>
+  </view>
+
   <view class="page__bd">
     <view class="weui-cells__title">投资项目评估大作业</view>
-    <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cells_after-title">
         <view class="weui-cell weui-cell_example ">
           <view class="weui-cell__bd">得分</view>
-          <view class="weui-cell__ft">分数</view>
+          <view class="weui-cell__ft">{{midterm_grade}}</view>
         </view>
         <view class="weui-cell weui-cell_example ">
           <view class="weui-cell__bd">正确率</view>
-          <view class="weui-cell__ft">50%</view>
+          <view class="weui-cell__ft">{{midterm_correctness}}</view>
         </view>
     </view>
   </view>
 
   <view class="page__bd">
     <view class="weui-cells__title">交通项目大作业</view>
-    <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cells_after-title">
         <view class="weui-cell weui-cell_example ">
           <view class="weui-cell__bd">得分</view>
-          <view class="weui-cell__ft">分数</view>
+          <view class="weui-cell__ft">{{final_grade}}</view>
         </view>
         <view class="weui-cell weui-cell_example ">
           <view class="weui-cell__bd">正确率</view>
-          <view class="weui-cell__ft">50%</view>
+          <view class="weui-cell__ft">{{final_correctness}}</view>
         </view>
+    </view>
+  </view>
+  <view wx:if="{{register_status}}" class="page__bd" bindtap="unlock">
+    <view class="button-sp-area">
+			<a class="weui-btn weui-btn_mini weui-btn_primary">解绑学号</a>
     </view>
   </view>
   <view class="weui-form__extra-area">
@@ -38,8 +59,8 @@
 				<view class="weui-footer__links">
 					<a href="javascript:" class="weui-footer__link">谢海红课程平台</a>
 				</view>
-				<view class="weui-footer__text">Copyright © 2008-2020</view>
+				<view class="weui-footer__text">Copyright © 2018-2021</view>
 			</view>
-	</view>
+  </view>
 </view>
 

@@ -10,7 +10,7 @@
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "  BJTU作业下载平台",
+    "navigationBarTitleText": "  谢海红课程作业下载平台",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light"
   },
@@ -25,13 +25,13 @@
       },
       {
         "pagePath": "pages/hw1/hw1",
-        "text": "投资项目评估作业",
+        "text": "投资项目评估",
         "iconPath": "images/download.png",
         "selectedIconPath": "images/download_finished.png"
       },
       {
         "pagePath": "pages/hw2/hw2",
-        "text": "交通投资项目作业",
+        "text": "交通投资项目",
         "iconPath": "images/download_1.png",
         "selectedIconPath": "images/download_finished_1.png"
       },

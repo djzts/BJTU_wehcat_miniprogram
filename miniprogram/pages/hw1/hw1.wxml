@@ -15,7 +15,7 @@
                 <label class="weui-label">姓名</label>
             </view>
 						<view class="weui-cell__bd">
-							<input class="weui-input" placeholder=" " bindinput="bindNameInput" placeholder-class="weui-input__placeholder" />
+							<input class="weui-input" placeholder="填写本人姓名" bindinput="bindNameInput" placeholder-class="weui-input__placeholder" />
 						</view>
 					</view>
 					<view class="weui-cell weui-cell_active">
@@ -23,7 +23,7 @@
               <label class="weui-label">交大学号</label>
             </view>
 						<view class="weui-cell__bd">
-							<input class="weui-input" placeholder=" " bindinput="bindNumInput" type="number" placeholder-class="weui-input__placeholder" />
+							<input class="weui-input" placeholder="填写交大学号" bindinput="bindNumInput" type="number" placeholder-class="weui-input__placeholder" />
 						</view>
 					</view>
 				</view>
@@ -49,7 +49,7 @@
 				<view class="weui-footer__links">
 					<a href="javascript:" class="weui-footer__link">谢海红课程平台</a>
 				</view>
-				<view class="weui-footer__text">Copyright © 2008-2020</view>
+				<view class="weui-footer__text">Copyright © 2018-2021</view>
 			</view>
 		</view>
 	</view>
