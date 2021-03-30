@@ -21,8 +21,8 @@
 - [微信开放文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 
 ## 一些对我第一次“开发” 颇具帮助的网站
--[https://www.vxzsk.com/1881.html]
--[https://blog.csdn.net/qq_38650223/article/details/79771678]
--[https://www.cnblogs.com/crazycode2/p/8274645.html]
--[https://blog.csdn.net/weixin_30622181/article/details/95356697]
--[https://blog.csdn.net/qq_19741181/article/details/104510762]
+- (https://www.vxzsk.com/1881.html)
+- [https://blog.csdn.net/qq_38650223/article/details/79771678]
+- [https://www.cnblogs.com/crazycode2/p/8274645.html]
+- [https://blog.csdn.net/weixin_30622181/article/details/95356697]
+- [https://blog.csdn.net/qq_19741181/article/details/104510762]
