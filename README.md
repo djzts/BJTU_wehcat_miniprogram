@@ -20,9 +20,15 @@
 - [weui-wxss](https://github.com/Tencent/weui-wxss/)
 - [微信开放文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 
-## 一些对我第一次“开发” 颇具帮助的网站
-- (https://www.vxzsk.com/1881.html)
+## 一些对我第一次“开发” 颇具帮助的网站 list
+- [https://www.vxzsk.com/1881.html]
 - [https://blog.csdn.net/qq_38650223/article/details/79771678]
 - [https://www.cnblogs.com/crazycode2/p/8274645.html]
 - [https://blog.csdn.net/weixin_30622181/article/details/95356697]
 - [https://blog.csdn.net/qq_19741181/article/details/104510762]
+- [https://blog.csdn.net/lucky_zeng/article/details/80066479]
+- [https://blog.csdn.net/qq_19741181/article/details/104235086]
+- [https://blog.csdn.net/big_123_/article/details/105414846]
+- [https://www.cnblogs.com/pansidong/p/11103362.html]
+- [https://www.cnblogs.com/yang-shuai/p/6899430.html]
+- [https://developers.weixin.qq.com/community/develop/doc/00044c7a1084e0e1cbf66c49156800]
