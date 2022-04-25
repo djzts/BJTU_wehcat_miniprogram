@@ -142,7 +142,6 @@ Page({
     wx.showToast({
       title: '加载中',
       icon: 'loading',
-      duration: 3000
     })    
     console.log('cloud://bjtutrans-rig0f.626a-bjtutrans-rig0f-1302113084/'+ location + '/' + stu_id + '.' + filetype)
     wx.cloud.downloadFile({
@@ -159,7 +158,7 @@ Page({
           success:function(res){
             console.log(res);
             var savedFilePath =  res.savedFilePath;
-            console.log('target destination =' + newFilePath);
+            console.log('target destination =' + newFilePath);    
             wx.openDocument({
               filePath: newFilePath,
               showMenu: true,

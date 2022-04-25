@@ -32,13 +32,13 @@
       }, 
       { 
         "pagePath": "pages/hw2/hw2", 
-        "text": "交通投资项目", 
+        "text": "交通项目评估", 
         "iconPath": "images/download_1.png", 
         "selectedIconPath": "images/download_finished_1.png" 
       }, 
       { 
         "pagePath": "pages/grade/grade", 
-        "text": "个人分数", 
+        "text": "个人成绩", 
         "iconPath": "images/grade.png", 
         "selectedIconPath": "images/grade_selected.png" 
       } 

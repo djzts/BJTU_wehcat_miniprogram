@@ -24,7 +24,6 @@ Page({
     wx.showToast({
       title: '加载中',
       icon: 'loading',
-      duration: 2000
     })
     
     wx.cloud.downloadFile({

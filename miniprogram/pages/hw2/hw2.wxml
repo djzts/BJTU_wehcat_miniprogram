@@ -3,7 +3,7 @@
 	<view class="weui-form">
 		<view class="weui-form__text-area">
 			<h2 class="weui-form__title">交通项目评估大作业</h2>
-			<view class="weui-form__desc">限注册了谢老师专业限选课的同学下载，这是第二次大作业。</view>
+			<view class="weui-form__desc">限注册了专业限选课的同学下载，此作业并非校选课作业。</view>
 		</view>
 		<view class="weui-form__control-area">
 			<view class="weui-cells__group weui-cells__group_form">
