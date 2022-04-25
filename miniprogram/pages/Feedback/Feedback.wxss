@@ -1,0 +1,7 @@
+/* miniprogram/pages/Feedback/Feedback.wxss */ 
+/*! 
+ * WeUI v2.3.0 (https://github.com/weui/weui-wxss) 
+ * Copyright 2020 Tencent, Inc. 
+ * Licensed under the MIT license 
+ */ 
+ .page{background-color:var(--weui-BG-3)}image{margin:4px 0}

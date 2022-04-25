@@ -1,0 +1,16 @@
+<!--miniprogram/pages/Feedback/Feedback.wxml--> 
+<view class="page" data-weui-theme="{{theme}}"> 
+    <view class="page__hd"> 
+        <view class="page__title">问题反馈</view> 
+        <view class="page__desc">优化建议 请发邮件至 </view>  
+        <view class="page__desc"> ☞ xiehh16@gmail.com</view>  
+    </view> 
+    <view class="weui-form__extra-area"> 
+            <view class="weui-footer"> 
+                <view class="weui-footer__links"> 
+                    <a href="javascript:" class="weui-footer__link">交通项目评估与管理课程平台</a> 
+                </view> 
+                <view class="weui-footer__text">Copyright © 2021-2022</view> 
+            </view> 
+    </view> 
+</view> 

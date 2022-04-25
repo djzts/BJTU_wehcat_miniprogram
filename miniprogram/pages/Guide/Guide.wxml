@@ -41,14 +41,14 @@
                     </view>
 
                     <view class="weui-article__p">
-                        所以在做作业中，我推荐大家多用公式及其引用。这样会让你更快的写完作业并获得更高的分数。
+                        所以在做作业中，我推荐大家多用"公式"及其"引用"（亦是关键字）。这样会让你更快的写完作业并获得更高的分数。
                     </view>
 
                     <view class="weui-article__p">
-                        公众号回复  “基本函数”  会给你基本函数的运用的介绍的网站地址。
+                        公众号回复 "公式"、"函数"、"逻辑与索引"、"修正错误"、"引用" 等会给你基本函数的运用的介绍的网站地址。
                     </view>
                     <view class="weui-article__p">
-                        对于财务类，公众号回复  “微软官网说明书” / “Office助手网站” 会给你 收录了大作业必要的财务函数的网站地址。
+                        对于财务类，公众号回复  “函数” 会给你 收录了大作业必要的财务函数的网站地址。
                     </view>
                 </view>
 
@@ -62,7 +62,7 @@
                     </view>
 
                     <view class="weui-article__p">
-                        公众号回复  “demo”  会给你我觉得不错的EXCEL 教学网址。
+                        公众号回复  "关键字"，"进阶"， 我会给你我觉得不错的EXCEL 教学网址。
                     </view>
                 </view>
             </view>
@@ -71,9 +71,9 @@
     <view class="weui-form__extra-area">
 			<view class="weui-footer">
 				<view class="weui-footer__links">
-					<a href="javascript:" class="weui-footer__link">谢海红课程平台</a>
+					<a href="javascript:" class="weui-footer__link">交通项目评估与管理课程平台</a>
 				</view>
-				<view class="weui-footer__text">Copyright © 2008-2020</view>
+				<view class="weui-footer__text">Copyright © 2021-2022</view>
 			</view>
 	</view>
 </view>

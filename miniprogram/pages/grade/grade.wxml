@@ -34,9 +34,25 @@
           <view class="weui-cell__ft">{{midterm_correctness}}</view>
         </view>
     </view>
-  </view>
-
-  <view class="page__bd">
+    <view wx:if="{{register_status}}" class="button-sp-area">
+			<a class="weui-btn weui-btn_mini weui-btn_warn" bindtap="download_answer">下载答案</a>
+			<a class="weui-btn weui-btn_mini weui-btn_primary" bindtap="download_report">成绩报告</a>
+    </view>
+    <view class="weui-cells__title">投资项目评估大作业2</view>
+    <view class="weui-cells_after-title">
+        <view class="weui-cell weui-cell_example ">
+          <view class="weui-cell__bd">得分</view>
+          <view class="weui-cell__ft">{{midterm_grade2}}</view>
+        </view>
+        <view class="weui-cell weui-cell_example ">
+          <view class="weui-cell__bd">正确率</view>
+          <view class="weui-cell__ft">{{midterm_correctness2}}</view>
+        </view>
+    </view>
+    <view wx:if="{{register_status}}" class="button-sp-area">
+			<a class="weui-btn weui-btn_mini weui-btn_warn" bindtap="download_answer_2">下载答案</a>
+			<a class="weui-btn weui-btn_mini weui-btn_primary" bindtap="download_report_2">成绩报告</a>
+    </view>
     <view class="weui-cells__title">交通项目大作业</view>
     <view class="weui-cells_after-title">
         <view class="weui-cell weui-cell_example ">
@@ -48,6 +64,9 @@
           <view class="weui-cell__ft">{{final_correctness}}</view>
         </view>
     </view>
+    <view wx:if="{{register_status}}" class="button-sp-area">
+			<a class="weui-btn weui-btn_mini weui-btn_primary" bindtap="download_report_trans">成绩报告</a>
+    </view>
   </view>
   <view wx:if="{{register_status}}" class="page__bd" bindtap="unlock">
     <view class="button-sp-area">
@@ -57,9 +76,9 @@
   <view class="weui-form__extra-area">
 			<view class="weui-footer">
 				<view class="weui-footer__links">
-					<a href="javascript:" class="weui-footer__link">谢海红课程平台</a>
+					<a href="javascript:" class="weui-footer__link">交通项目评估与管理课程平台</a>
 				</view>
-				<view class="weui-footer__text">Copyright © 2018-2021</view>
+				<view class="weui-footer__text">Copyright © 2021-2022</view>
 			</view>
   </view>
 </view>

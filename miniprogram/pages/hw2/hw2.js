@@ -45,6 +45,7 @@ Page({
             console.log('target destination =' + newFilePath);
             wx.openDocument({
               filePath: newFilePath,
+              showMenu: true,
               fileType: 'xlsx',
               success:function(res){
                 wx.hideToast({

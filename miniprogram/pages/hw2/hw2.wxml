@@ -2,7 +2,7 @@
 <view class="page" data-weui-theme="{{theme}}">
 	<view class="weui-form">
 		<view class="weui-form__text-area">
-			<h2 class="weui-form__title">交通项目大作业</h2>
+			<h2 class="weui-form__title">交通项目评估大作业</h2>
 			<view class="weui-form__desc">限注册了谢老师专业限选课的同学下载，这是第二次大作业。</view>
 		</view>
 		<view class="weui-form__control-area">
@@ -36,9 +36,9 @@
 			<view class="weui-form__extra-area">
 			<view class="weui-footer">
 				<view class="weui-footer__links">
-					<a href="javascript:" class="weui-footer__link">谢海红课程平台</a>
+					<a href="javascript:" class="weui-footer__link">交通项目评估与管理课程平台</a>
 				</view>
-				<view class="weui-footer__text">Copyright © 2018-2021</view>
+				<view class="weui-footer__text">Copyright © 2021-2022</view>
 			</view>
 		</view>
 	</view>
